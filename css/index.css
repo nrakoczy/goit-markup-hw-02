@@ -14,6 +14,14 @@ body {
     color: var(--grey);
 }
 
+.navigation ul,
+.second-section ul,
+.thrid-section ul,
+.fourth-section ul,
+.portfolio-section ul 
+{
+    list-style-type: none;
+}
 .top-section {
     background-color: var(--white);
 }
@@ -85,6 +93,7 @@ nav a:focus,
     cursor: pointer;
     width: 200px;
     height: 50px;
+    border-radius: 4px;
 }
 
 .second-section h3 {
@@ -133,7 +142,9 @@ nav a:focus,
 .bottom-style {
     background-color: var(--dark-backgorund);
 }
-
+.bottom-style .logo {
+    color: var(--white);
+}
 .bottom-style a[title="Lokalizacja"] {
     text-decoration: none;
     font-style: normal;
