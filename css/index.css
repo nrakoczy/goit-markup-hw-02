@@ -1,27 +1,26 @@
 :root {
     --blue: #2196f3;
-    --almost-black: #212121;
     --grey: #757575;
-    --dark-backgorund: #2f303a;
     --white: #ffffff;
-    --dirty-white: #e5e5e5;
-    --dirtier-white: #f5f4fa;
+    --dirty-white: #f5f4fa;
+    --dark-background: #2f303a;
+    --almost-black: #212121;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: var(--dirty-white);
-    color: var(--grey);
+    background-color: var(--white);
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: var(--brand-color-black2);
 }
 
 .navigation ul,
 .second-section ul,
 .thrid-section ul,
 .fourth-section ul,
-.portfolio-section ul 
-{
+.portfolio-section ul {
     list-style-type: none;
 }
+
 .top-section {
     background-color: var(--white);
 }
@@ -79,7 +78,7 @@ nav a:focus,
 }
 
 .first-section {
-    background-color: var(--dark-backgorund);
+    background-color: var(--dark-background);
 }
 
 .order-button {
@@ -122,7 +121,7 @@ nav a:focus,
 }
 
 .fourth-section {
-    background-color: var(--dirtier-white);
+    background-color: var(--dirty-white);
 }
 
 .fourth-section h4 {
@@ -140,16 +139,18 @@ nav a:focus,
 }
 
 .bottom-style {
-    background-color: var(--dark-backgorund);
+    background-color: var(--dark-background);
 }
+
 .bottom-style .logo {
     color: var(--white);
 }
+
 .bottom-style a[title="Lokalizacja"] {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white);
@@ -160,23 +161,24 @@ nav a:focus,
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .portfolio-section button {
-    background-color: var(--dirtier-white);
+    background-color: var(--brand-color-white);
     color: var(--almost-black);
     font-family: "Roboto", sans-serif;
-    /* this font was not inherited form body?? */
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .portfolio-section button:hover,
