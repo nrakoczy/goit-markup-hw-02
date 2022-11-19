@@ -1,0 +1,189 @@
+:root {
+    --blue: #2196f3;
+    --almost-black: #212121;
+    --grey: #757575;
+    --dark-backgorund: #2f303a;
+    --white: #ffffff;
+    --dirty-white: #e5e5e5;
+    --dirtier-white: #f5f4fa;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--dirty-white);
+    color: var(--grey);
+}
+
+.top-section {
+    background-color: var(--white);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.navigation a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: var(--almost-black);
+    letter-spacing: 0.02em;
+}
+
+.logo-color,
+nav a:hover,
+nav a:focus,
+.contacts:hover,
+.contacts:focus,
+.bottom-style a[href^="mailto"]:hover,
+.bottom-style a[href^="mailto"]:focus,
+.bottom-style a[href^="tel"]:hover,
+.bottom-style a[href^="tel"]:focus {
+    color: var(--blue);
+}
+
+.contacts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: var(--grey);
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.primary-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.first-section {
+    background-color: var(--dark-backgorund);
+}
+
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--blue);
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.second-section h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--almost-black);
+}
+
+.second-section p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.thrid-section h2,
+.fourth-section h2 {
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--almost-black);
+}
+
+.fourth-section {
+    background-color: var(--dirtier-white);
+}
+
+.fourth-section h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--almost-black);
+}
+
+.fourth-section p {
+    font-size: 16px;
+    line-height: 1.88s;
+    letter-spacing: 0.03em;
+}
+
+.bottom-style {
+    background-color: var(--dark-backgorund);
+}
+
+.bottom-style a[title="Lokalizacja"] {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white);
+}
+
+.bottom-style a[href^="mailto"],
+.bottom-style a[href^="tel"] {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-section button {
+    background-color: var(--dirtier-white);
+    color: var(--almost-black);
+    font-family: "Roboto", sans-serif;
+    /* this font was not inherited form body?? */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.portfolio-section button:hover,
+.portfolio-section button:focus {
+    background-color: #2196f3;
+    color: var(--white);
+}
+
+.portfolio-section h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--almost-black);
+}
+
+.portfolio-section p {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
