@@ -1,0 +1,232 @@
+:root {
+    --brand-color-white: rgba(255, 255, 255, 1);
+    --brand-color-gray: rgba(245, 244, 250, 1);
+    --brand-color-black2: rgba(33, 33, 33, 1);
+    --brand-color-blue: rgba(33, 150, 243, 1);
+    --brand-color-gray2: rgba(117, 117, 117, 1);
+    --brand-color-dark: rgba(47, 48, 58, 1);
+    --brand-color-black: rgba(0, 0, 0, 1);
+    
+}
+
+body {
+    color: var(--brand-color-black2);
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.portfolio-background {
+    background-color: var(--brand-color-white);
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.top {
+    background-color: var(--brand-color-white);
+}
+
+.main-header {
+    background-color: var(--brand-color-dark);
+    color: var(--brand-color-white);
+
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.logo {
+    color: var(--brand-color-blue);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-part {
+    color: var(--brand-color-black);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.navigation.link1 {
+    color: var(--brand-color-black2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navigation.link1:hover {
+    color: var(--brand-color-blue);
+}
+
+.contact {
+    color: var(--brand-color-gray2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact.link1:hover {
+    color: var(--brand-color-blue);
+}
+
+.button-order {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--brand-color-blue);
+    color: var(--brand-color-white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:active,
+.button-order:focus {
+    background-color: var(--brand-color-white);
+    color: var(--brand-color-blue);
+}
+
+.buttons {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--brand-color-gray);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:active,
+.buttons:focus {
+    background-color: var(--brand-color-blue);
+    color: var(--brand-color-white);
+}
+
+.lorem {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.lorem-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-gray2);
+}
+
+.about us {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main-part {
+    background-color: var(--brand-color-white);
+}
+
+.employees {
+    text-align: center;
+}
+
+.john-doe {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--brand-color-gray2);
+}
+
+.project-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
+    letter-spacing: 0.03em;
+    color: var(--brand-color-gray2);
+}
+
+.bottom {
+    background-color: var(--brand-color-dark);
+}
+
+.logo-part2 {
+    color: var(--brand-color-white);
+}
+
+.our-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-white);
+}
+
+.end {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
