@@ -72,17 +72,16 @@ body {
 .navigation.link:hover {
     color: var(--brand-color-blue);
 }
-
-.contact {
+.contact-info a {
     font-size: 14px;
-    color: var(--brand-color-gray2);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+        color: var(--brand-color-gray2);
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
-.contact.link:hover {
+.contact-info.link:hover {
     color: var(--brand-color-blue);
 }
 
