@@ -16,15 +16,15 @@ body {
     
 }
 
-.portfolio-background {
+.portfolio-bg {
     background-color: var(--brand-color-white);
 }
 
-.link1 {
+.link {
     text-decoration: none;
 }
 
-.top {
+.top-section {
     background-color: var(--brand-color-white);
 }
 
@@ -42,23 +42,24 @@ body {
 }
 
 .logo {
+    font-size: 26px;
     color: var(--brand-color-blue);
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
-
-.logo-part {
-    color: var(--brand-color-black);
 }
 
 .list {
     list-style-type: none;
 }
 
-.navigation.link1 {
+.logo-part {
+    color: var(--brand-color-black);
+}
+
+
+.navigation.link {
     color: var(--brand-color-black2);
     font-style: normal;
     font-weight: 500;
@@ -67,20 +68,20 @@ body {
     letter-spacing: 0.02em;
 }
 
-.navigation.link1:hover {
+.navigation.link:hover {
     color: var(--brand-color-blue);
 }
 
 .contact {
+    font-size: 14px;
     color: var(--brand-color-gray2);
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
-.contact.link1:hover {
+.contact.link:hover {
     color: var(--brand-color-blue);
 }
 
@@ -88,11 +89,11 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    
     line-height: 1.62;
-
     text-align: center;
     letter-spacing: 0.03em;
     border: none;
@@ -158,7 +159,7 @@ body {
     background-color: var(--brand-color-white);
 }
 
-.employees {
+.team {
     text-align: center;
 }
 
@@ -167,7 +168,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -177,11 +177,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: 0.03em;
-
     color: var(--brand-color-gray2);
 }
 
@@ -190,7 +187,6 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-
     letter-spacing: 0.06em;
 }
 
@@ -208,10 +204,6 @@ body {
     background-color: var(--brand-color-dark);
 }
 
-.logo-part2 {
-    color: var(--brand-color-white);
-}
-
 .our-address {
     font-style: normal;
     font-weight: 400;
@@ -221,12 +213,14 @@ body {
     color: var(--brand-color-white);
 }
 
-.end {
+.logo-part2 {
+    color: var(--brand-color-white);
+}
+.end-section {
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
