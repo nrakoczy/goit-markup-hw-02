@@ -79,9 +79,19 @@ body {
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
+
+
+}
+.contact {
+    font-size: 14px;
+    color: var(--brand-color-gray2);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
-.contact-info.link:hover {
+.contact.link:hover {
     color: var(--brand-color-blue);
 }
 
