@@ -85,7 +85,7 @@ body {
     color: var(--brand-color-blue);
 }
 
-.button-order {
+.button-class {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
@@ -100,9 +100,9 @@ body {
     cursor: pointer;
 }
 
-.button-order:hover,
-.button-order:active,
-.button-order:focus {
+.button-class:hover,
+.button-class:active,
+.button-class:focus {
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
 }
