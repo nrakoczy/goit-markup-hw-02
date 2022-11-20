@@ -50,11 +50,11 @@ body {
     text-decoration: none;
 }
 
-.list {
+.nav-list a {
     list-style-type: none;
 }
 
-.logo-part {
+.logo-white {
     color: var(--brand-color-black);
 }
 
@@ -66,6 +66,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .navigation.link:hover {
@@ -213,7 +214,7 @@ body {
     color: var(--brand-color-white);
 }
 
-.logo-part2 {
+.logo-black {
     color: var(--brand-color-white);
 }
 .end-section {
