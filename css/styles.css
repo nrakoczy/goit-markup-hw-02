@@ -59,7 +59,7 @@ body {
 }
 
 
-.navigation.link {
+.nav-list a {
     color: var(--brand-color-black2);
     font-style: normal;
     font-weight: 500;
