@@ -21,10 +21,6 @@ body {
     background-color: var(--brand-color-white);
 }
 
-.link {
-    text-decoration: none;
-    list-style-type: none;
-}
 
 .top-section {
     background-color: var(--brand-color-white);
@@ -215,7 +211,10 @@ body {
 .list {
     list-style-type: none;
 }
-
+.link {
+    text-decoration: none;
+    list-style-type: none;
+}
 .project-name {
     font-style: normal;
     font-weight: 700;
@@ -252,6 +251,7 @@ body {
 .tel-link {
     text-decoration-line: underline;
 }
+
 
 .logo-white {
     color: var(--brand-color-white);
