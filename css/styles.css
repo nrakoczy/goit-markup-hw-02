@@ -28,7 +28,7 @@ body {
     background-color: var(--brand-color-white);
 }
 
-.main-header {
+.main-section h1 {
     background-color: var(--brand-color-dark);
     color: var(--brand-color-white);
 
@@ -69,7 +69,7 @@ body {
     text-decoration: none;
 }
 
-.navigation.link:hover {
+.nav-list.link:hover {
     color: var(--brand-color-blue);
 }
 .contact-info a {
@@ -82,7 +82,7 @@ body {
 
 
 }
-.contact {
+.link-contact a{
     font-size: 14px;
     color: var(--brand-color-gray2);
     font-style: normal;
@@ -95,7 +95,7 @@ body {
     color: var(--brand-color-blue);
 }
 
-.button-class {
+.button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
@@ -135,8 +135,7 @@ body {
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
 }
-
-.lorem {
+.articles h3  {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -145,7 +144,7 @@ body {
     text-transform: uppercase;
 }
 
-.lorem-text {
+.articles p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
