@@ -220,8 +220,11 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
-}
 
+}
+.tel-link {
+    text-decoration-line: underline;
+}
 
 .logo-white {
     color: var(--brand-color-white);
