@@ -220,7 +220,7 @@ body {
     color: var(--brand-color-white);
 }
 
-.our-address tel {
+.our-address.tel {
   text-decoration-line: underline
 }
 .logo-white {
