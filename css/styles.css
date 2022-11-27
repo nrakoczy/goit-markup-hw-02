@@ -113,13 +113,10 @@ body {
 }
 
 .button-text:hover,
-.button-text:focus
-.button-text  {
+.button-text:focus{
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+   
 }
 
 
