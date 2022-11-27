@@ -112,10 +112,13 @@ body {
     cursor: pointer;
 }
 
-.button-class:hover,
-.button-class:focus {
+
+.button-text  {
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .buttons {
