@@ -54,7 +54,7 @@ body {
     list-style-type: none;
 }
 
-.logo-white {
+.logo-black {
     color: var(--brand-color-black);
 }
 
@@ -220,7 +220,7 @@ body {
     color: var(--brand-color-white);
 }
 
-.logo-black {
+.logo-white {
     color: var(--brand-color-white);
 }
 .end-section {
