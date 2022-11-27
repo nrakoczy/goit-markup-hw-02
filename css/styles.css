@@ -90,7 +90,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     list-style-type: none;
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .contact.link:hover {
