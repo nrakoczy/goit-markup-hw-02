@@ -89,6 +89,8 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .contact.link:hover {
@@ -220,9 +222,7 @@ body {
     color: var(--brand-color-white);
 }
 
-.our-address.tel {
-  text-decoration-line: underline
-}
+
 .logo-white {
     color: var(--brand-color-white);
 }
