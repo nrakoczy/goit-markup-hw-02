@@ -112,7 +112,8 @@ body {
     cursor: pointer;
 }
 
-
+.button-text:hover,
+.buttons-text:focus
 .button-text  {
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
@@ -120,6 +121,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+
 
 .buttons {
     font-family: 'Roboto', sans-serif;
