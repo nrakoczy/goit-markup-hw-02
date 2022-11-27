@@ -53,7 +53,9 @@ body {
 .nav-list a {
     list-style-type: none;
 }
-
+.nav-list href="portfolio.html {
+color: var(--brand-color-blue)
+}
 .logo-black {
     color: var(--brand-color-black);
 }
