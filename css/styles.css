@@ -1,11 +1,11 @@
 :root {
-    --brand-color-white: rgba(255, 255, 255, 1);
-    --brand-color-gray: rgba(245, 244, 250, 1);
+    --brand-color-white: #FFFFFF;
+    --brand-color-gray: #E5E5E5;
     --brand-color-black2: rgba(33, 33, 33, 1);
-    --brand-color-blue: rgba(33, 150, 243, 1);
-    --brand-color-gray2: rgba(117, 117, 117, 1);
-    --brand-color-dark: rgba(47, 48, 58, 1);
-    --brand-color-black: rgba(0, 0, 0, 1);
+    --brand-color-blue: #2196f3;
+    --brand-color-gray2: #757575;
+    --brand-color-dark: #2F303A;
+    --brand-color-black: black;
     
 }
 
@@ -111,7 +111,6 @@ body {
 }
 
 .button-class:hover,
-.button-class:active,
 .button-class:focus {
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
@@ -132,7 +131,6 @@ body {
 }
 
 .buttons:hover,
-.buttons:active,
 .buttons:focus {
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
