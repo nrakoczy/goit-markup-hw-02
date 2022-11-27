@@ -114,7 +114,7 @@ body {
 
 .button-text:hover,
 .button-text:focus{
-    background-color: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
     color: var(--brand-color-blue);
    
 }
