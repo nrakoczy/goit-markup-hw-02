@@ -23,6 +23,7 @@ body {
 
 .link {
     text-decoration: none;
+    list-style-type: none;
 }
 
 .top-section {
