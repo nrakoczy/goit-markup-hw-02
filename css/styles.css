@@ -26,7 +26,7 @@ body {
     background-color: var(--brand-color-white);
 }
 
-.main-section h1 {
+.order button {
     background-color: var(--brand-color-dark);
     color: var(--brand-color-white);
 
