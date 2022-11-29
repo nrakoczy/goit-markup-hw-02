@@ -239,9 +239,6 @@ color: var(--brand-color-blue);
     list-style: none;
 }
 
-.team li {
-    list-style: none;
-}
 
 .link {
     text-decoration: none;
@@ -301,9 +298,6 @@ color: var(--brand-color-blue);
 }
 
 .list {
-    list-style: none;
-}
-.our-address ul {
     list-style: none;
 }
 
