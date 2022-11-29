@@ -51,7 +51,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    list-style-type: none;
     list-style: none;
 }
 
@@ -293,12 +292,13 @@ color: var(--brand-color-blue);
 list-style: none;
 }
 
-.end-section {
+.our-address a  {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 
