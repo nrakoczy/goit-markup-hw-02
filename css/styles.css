@@ -24,19 +24,6 @@ body {
 
 .top-section {
     background-color: var(--brand-color-white);
-
-.order button {
-    background-color: var(--brand-color-dark);
-    color: var(--brand-color-white);
-
-    font-size: 44px;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 1.36;
-
-    text-align: center;
-    letter-spacing: 0.06em;
-
 }
 
 .logo-header {
@@ -136,6 +123,20 @@ body {
         background: var(--brand-color-blue);
         color: var(--brand-color-white);
         border: var(--brand-color-blue);
+}
+
+.order {
+    background-color: var(--brand-color-dark);
+    color: var(--brand-color-white);
+
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
 }
 
 .order {
