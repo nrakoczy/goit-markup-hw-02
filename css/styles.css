@@ -24,7 +24,6 @@ body {
 
 .top-section {
     background-color: var(--brand-color-white);
-}
 
 .order button {
     background-color: var(--brand-color-dark);
@@ -40,18 +39,17 @@ body {
 
 }
 
-.logo {
+.logo-header {
     font-size: 26px;
     color: var(--brand-color-blue);
     font-family: 'Raleway', sans-serif;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
 }
 
-.nav-list a {
-    list-style-type: none;
-}
 
 .logo-black {
     color: var(--brand-color-black);
@@ -69,9 +67,12 @@ body {
     list-style-type: none;
 }
 
-.nav-list.link:hover {
+.nav-list:hover {
     color: var(--brand-color-blue);
 }
+
+
+/*  */
 .contact-info a {
     font-size: 14px;
     color: var(--brand-color-gray2);
@@ -113,6 +114,9 @@ body {
 }
 
    
+.order {
+    background-color: var(--brand-color-black);
+}
 
 .order button {
         font-weight: 700;
