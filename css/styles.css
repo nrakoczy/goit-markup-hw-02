@@ -250,15 +250,20 @@ body {
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
     list-style-type: none;
-
 }
-.tel-link {
+
+
+.mail{
     text-decoration-line: underline;
 }
 
 
 .logo-white {
     color: var(--brand-color-white);
+}
+
+.list {
+list-style: none;
 }
 
 .end-section {
@@ -269,3 +274,4 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
