@@ -230,7 +230,7 @@ color: var(--brand-color-blue);
 }
 
 .profession {
-    list-style-type: none;
+   
     list-style: none;
 }
 
@@ -281,6 +281,9 @@ color: var(--brand-color-blue);
     list-style: none;
 }
 
+.our-address ul {
+    list-style: none 
+}
 
 .mail{
     text-decoration-line: underline;
