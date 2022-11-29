@@ -115,7 +115,7 @@ body {
 
    
 .order {
-    background-color: var(--brand-color-black);
+    background: var(--brand-color-black);
 }
 
 .order button {
