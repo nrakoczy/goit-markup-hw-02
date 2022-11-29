@@ -59,7 +59,7 @@ body {
 }
 
 
-/*  */
+
 .contact-info a {
     font-size: 14px;
     color: var(--brand-color-gray2);
@@ -86,7 +86,6 @@ body {
 color: var(--brand-color-blue);
 }
 
-/*  */
 .button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-blue);
@@ -266,6 +265,7 @@ color: var(--brand-color-blue);
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
     list-style-type: none;
+    list-style: none;
 }
 
 
