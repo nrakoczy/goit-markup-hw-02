@@ -233,6 +233,10 @@ color: var(--brand-color-blue);
     list-style: none;
 }
 
+.team li {
+    list-style: none;
+}
+
 .link {
     text-decoration: none;
     list-style-type: none;
