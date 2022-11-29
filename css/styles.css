@@ -114,9 +114,7 @@ body {
 }
 
    
-.order {
-    background: var(--brand-color-black);
-}
+
 
 .order button {
         font-weight: 700;
@@ -130,6 +128,10 @@ body {
         background: var(--brand-color-blue);
         color: var(--brand-color-white);
         border: var(--brand-color-blue);
+}
+
+.order {
+    background: var(--brand-color-black);
 }
 
 .order button:hover,
