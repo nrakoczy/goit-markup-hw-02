@@ -208,7 +208,7 @@ body {
     color: var(--brand-color-gray2);
 }
 
-.list {
+.profession.team {
     list-style-type: none;
 }
 .link {
