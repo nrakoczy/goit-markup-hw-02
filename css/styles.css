@@ -21,6 +21,9 @@ body {
     background-color: var(--brand-color-white);
 }
 
+.portfolio {
+    list-style:none
+}
 
 .top-section {
     background-color: var(--brand-color-white);
@@ -299,8 +302,12 @@ color: var(--brand-color-blue);
 }
 
 .list {
-list-style: none;
+    list-style: none;
 }
+.our-address ul {
+    list-style: none;
+}
+
 
 .our-address a  {
     font-size: 14px;
