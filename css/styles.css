@@ -150,7 +150,7 @@ color: var(--brand-color-blue);
 
 }
 
-.filter button {
+.filter {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-gray);
     font-style: normal;
