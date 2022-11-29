@@ -52,6 +52,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     list-style-type: none;
+    list-style: none;
 }
 
 .nav-list:hover {
