@@ -81,10 +81,12 @@ body {
     text-decoration-line: none;
 }
 
-.contact.link:hover {
-    color: var(--brand-color-blue);
+
+.link-contact a:hover{
+color: var(--brand-color-blue);
 }
 
+/*  */
 .button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-blue);
