@@ -221,13 +221,14 @@ color: var(--brand-color-blue);
     color: var(--brand-color-gray2);
 }
 
-.profession.team {
+.profession {
     list-style-type: none;
     list-style: none;
 }
 
 .team {
     text-align: center;
+    list-style: none;
 }
 
 .link {
