@@ -139,14 +139,13 @@ body {
 
 }
 
-.order {
-    background: var(--brand-color-black);
-}
 
 .order button:hover,
 .order button:focus {
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
+
+}
 
 .buttons {
     font-family: 'Roboto', sans-serif;
