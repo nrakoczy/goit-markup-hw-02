@@ -150,7 +150,7 @@ body {
   color: var(--brand-color-white);
 }
 
-.filter li {
+.buttons-text {
   font-family: 'Roboto', sans-serif;
   background-color: var(--brand-color-gray);
   font-style: normal;
@@ -164,8 +164,8 @@ body {
   cursor: pointer;
 }
 
-.filter button:hover,
-.filter button:focus {
+.buttons-text:hover,
+.buttons-text:focus {
   background-color: var(--brand-color-blue);
   color: var(--brand-color-white);
 }
