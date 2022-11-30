@@ -87,8 +87,6 @@ body {
   color: var(--brand-color-blue);
 }
 
-
-
 .order h1 {
   font-weight: 900;
   font-size: 44px;
@@ -114,7 +112,6 @@ body {
 }
 
 .order {
-    
   background-color: var(--brand-color-dark);
   color: var(--brand-color-white);
   font-size: 44px;
@@ -123,9 +120,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  
 }
-
 
 .order button:hover,
 .order button:focus {
@@ -247,7 +242,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color-white);
 }
-
 
 .logo-white {
   color: var(--brand-color-white);
