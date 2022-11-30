@@ -265,8 +265,15 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
 }
+.contact-mail {
+  text-decoration: none;
+}
+
+.contact-tel {
+  text-decoration: none;
+}
+
 
 .our-address a:hover,
 .our-address a:focus {
@@ -276,6 +283,3 @@ body {
   font-style: normal;
 }
 
-.contact-mail {
-  text-decoration: none;
-}
