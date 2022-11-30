@@ -272,5 +272,5 @@ body {
 }
 
 .contact-mail {
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
