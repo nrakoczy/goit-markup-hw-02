@@ -56,7 +56,7 @@ body {
   list-style: none;
 }
 
-.nav-list a:hover 
+.nav-list a:hover,
 .nav-list a:focus {
   color: var(--brand-color-blue);
 }
@@ -75,7 +75,7 @@ body {
   text-decoration-line: none;
 }
 
-.contact-info a:hover
+.contact-info a:hover,
 .contact-info a:focus {
   color: var(--brand-color-blue);
 }
@@ -91,7 +91,7 @@ body {
   text-decoration-line: none;
 }
 
-.link-contact a:hover
+.link-contact a:hover,
 .link-contact a:focus {
   color: var(--brand-color-blue);
 }
@@ -150,7 +150,7 @@ body {
   cursor: pointer;
 }
 
-.buttons-text:hover ,
+.buttons-text:hover,
 .buttons-text:focus {
   background-color: var(--brand-color-blue);
   color: var(--brand-color-white);
