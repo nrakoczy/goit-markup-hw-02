@@ -253,10 +253,12 @@ body {
 .list {
   list-style: none;
 }
+
 .our-address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  
   color: var(--brand-color-white);
 }
 
@@ -265,7 +267,6 @@ body {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color:rgba(255, 255, 255, 0.6);
 }
 
@@ -275,6 +276,8 @@ body {
 
 }
 
-.contact-mail {
-  text-decoration-line: underline;
+.contact-tel {
+  text-decoration: none;
 }
+
+
