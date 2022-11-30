@@ -56,7 +56,7 @@ body {
   list-style: none;
 }
 
-.nav-list a:hover
+.nav-list a:hover 
 .nav-list a:focus {
   color: var(--brand-color-blue);
 }
@@ -275,6 +275,6 @@ body {
 
 }
 
-.our-address > li > a {
+.our-address {
   text-decoration-line: underline;
 }
