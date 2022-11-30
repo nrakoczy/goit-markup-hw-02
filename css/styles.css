@@ -269,7 +269,7 @@ body {
   color:rgba(255, 255, 255, 0.6);
 }
 
-.our-address a:hover
+.our-address a:hover,
 .our-address a:focus {
   color: var(--brand-color-blue);
 
