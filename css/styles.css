@@ -61,7 +61,6 @@ body {
   color: var(--brand-color-blue);
 }
 
-
 .contact-info a {
   font-size: 14px;
   color: var(--brand-color-gray2);
@@ -230,7 +229,6 @@ body {
   background-color: var(--brand-color-dark);
 }
 
-
 .logo-white {
   color: var(--brand-color-white);
 }
@@ -252,6 +250,7 @@ body {
 
 .list {
   list-style: none;
+  font-style: normal;
 }
 
 .our-address {
@@ -260,25 +259,20 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color-white);
   font-style: normal;
-
 }
 
 .contact-tel.contact-tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color:rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .our-address a:hover,
 .our-address a:focus {
   color: var(--brand-color-blue);
-
 }
 
 .contact-mail {
-  text-decoration: none
+  text-decoration: none;
 }
-
-
-
