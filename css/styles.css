@@ -265,9 +265,6 @@ body {
   color: var(--brand-color-white);
 }
 
-.mail {
-  text-decoration-line: underline;
-}
 
 .logo-white {
   color: var(--brand-color-white);
@@ -295,4 +292,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.mail {
+  text-decoration-line: underline;
 }
