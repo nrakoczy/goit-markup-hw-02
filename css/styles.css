@@ -208,10 +208,7 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-  list-style-type: none;
-}
+
 .project-name {
   font-style: normal;
   font-weight: 700;
@@ -257,6 +254,11 @@ body {
   text-decoration: none;
 }
 
+.link {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .list {
   list-style: none;
 }
@@ -268,7 +270,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: #FFFFFF;
 }
 
 .contact-mail {
