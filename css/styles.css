@@ -271,6 +271,9 @@ body {
 .our-address a:focus {
   color: var(--brand-color-blue);
 }
+.address {
+  font-style: normal;
+}
 
 .contact-mail {
   text-decoration: none;
