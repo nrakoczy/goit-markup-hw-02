@@ -260,20 +260,25 @@ body {
   
 }
 
-.contact-mail.contact-tel {
+.contact-mail {
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.contact-mail {
-  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6)
 }
 
 .contact-tel {
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6)
 }
 
+.mail-underline {
+  text-decoration-line: underline;
+}
 
 .our-address a:hover,
 .our-address a:focus {
