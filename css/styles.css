@@ -257,7 +257,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--brand-color-white);
-  
 }
 
 .contact-mail {
@@ -266,7 +265,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-tel {
@@ -275,7 +274,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .mail-underline {
@@ -289,4 +288,3 @@ body {
 .address {
   font-style: normal;
 }
-
