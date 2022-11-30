@@ -72,6 +72,11 @@ body {
 .contact-info {
   text-decoration-line: none;
 }
+
+.contact-info a:hover{
+    color: var(--brand-color-blue);
+}
+
 .link-contact a {
   font-size: 14px;
   color: var(--brand-color-gray2);
@@ -147,6 +152,7 @@ body {
   background-color: var(--brand-color-blue);
   color: var(--brand-color-white);
 }
+
 .articles h3 {
   font-style: normal;
   font-weight: 700;
