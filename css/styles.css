@@ -271,6 +271,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-mail {
+.our-address href="mailto:info@devstudio.com"  {
   text-decoration-line: underline;
 }
