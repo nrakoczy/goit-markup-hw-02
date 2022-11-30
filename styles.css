@@ -52,15 +52,15 @@ body {
   list-style: none;
 }
 
-.nav-list li {
-  list-style: none;
-}
-
 .nav-list a:hover
 .nav-list a:focus {
   color: var(--brand-color-blue);
+  
 }
 
+.nav-list li {
+  list-style: none;
+}
 
 .contact-info a {
   font-size: 14px;
@@ -75,8 +75,7 @@ body {
   text-decoration-line: none;
 }
 
-.contact-info a:hover
-.contact-info a:focus {
+.contact-info a:hover {
   color: var(--brand-color-blue);
 }
 
@@ -91,8 +90,7 @@ body {
   text-decoration-line: none;
 }
 
-.link-contact a:hover
-.link-contact a:focus {
+.link-contact a:hover {
   color: var(--brand-color-blue);
 }
 
@@ -230,6 +228,14 @@ body {
   background-color: var(--brand-color-dark);
 }
 
+.our-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-white);
+}
 
 .logo-white {
   color: var(--brand-color-white);
@@ -253,12 +259,6 @@ body {
 .list {
   list-style: none;
 }
-.our-address {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--brand-color-white);
-}
 
 .our-address a {
   font-size: 14px;
@@ -269,12 +269,11 @@ body {
   color:rgba(255, 255, 255, 0.6);
 }
 
-.our-address a:hover
-.our-address a:focus {
+.our-address a:hover {
   color: var(--brand-color-blue);
 
 }
 
-.our-address > li > a {
+.contact-mail {
   text-decoration-line: underline;
 }
