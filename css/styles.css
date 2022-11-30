@@ -150,7 +150,7 @@ body {
   color: var(--brand-color-white);
 }
 
-.filter > button {
+.filter li {
   font-family: 'Roboto', sans-serif;
   background-color: var(--brand-color-gray);
   font-style: normal;
